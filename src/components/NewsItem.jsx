@@ -13,7 +13,7 @@ export default function NewsItem({ n }) {
             textOverflow: 'ellipsis', 
             display: '-webkit-box', 
             WebkitLineClamp: '3', 
-            WebkitBoxOrient: 'vertical' 
+            WebkitBoxOrient: 'vertical'
           }}>
             {n.description}
           </p>
